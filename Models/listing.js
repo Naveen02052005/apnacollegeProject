@@ -48,8 +48,12 @@ const listingSchema = new Schema({
         coordinates: {
             type: [Number],
             required: true
-        }
-    }
+     ,   }
+    },
+    // category:{
+    //     type:String,
+    //     enum:["Mountains","arctic","Farms","Castles"]
+    // }  This is for backend for the home page
 });
 
 
