@@ -1,0 +1,15 @@
+<% if(success && success.length)  {  %>   <!--Even though we keep this condition it will show green line because it is an array it means array exists so it shows so that we need use success.length also -->
+    <div class="alert alert-success alert-dismissible fade show col-6 offset-3" role="alert">
+    <%= success %>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+</div>
+
+<% } %>
+
+<% if(error && error.length)  {  %>   <!--Even though we keep this condition it will show green line because it is an array it means array exists so it shows so that we need use success.length also -->
+    <div class="alert alert-danger alert-dismissible fade show col-6 offset-3" role="alert">
+    <%= error %>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+</div>
+
+<% } %>
